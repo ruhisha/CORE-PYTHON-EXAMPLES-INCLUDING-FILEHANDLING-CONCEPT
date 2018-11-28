@@ -1,0 +1,5 @@
+f=open("sample.txt","a")
+st=input("enter the text which u want to append")
+f.write(st)
+f.close()
+print("text is append to file")
